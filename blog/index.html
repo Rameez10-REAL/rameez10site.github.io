@@ -11,9 +11,10 @@
   <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
   <link rel="stylesheet" href="../style.css"/>
   <link rel="preload" href="../Montserrat.woff2"as="font" type="font/woff2" crossorigin>
+    <script type="text/javascript" src="../scripts/tags.js"></script>
 </head>
 
-<body class="blogBG"">
+<body class="blogBG" onload="checkTags()">
   <img src="blogBackground.webp" id="blogImageBG" alt="background image"/>
     <div class="blog">
       <div><a href="../index.html">Back</a>
@@ -29,8 +30,7 @@
           <span class="textFadeIn">You will need to enable javascript to use comments, change the background and various other features.</span>
         </blockquote>
       </noscript>
-
-      <p><b>Posts:</b> 0 | <b>This month:</b> 0</p>
+      <p><b>Posts:</b> 1 | <b>This month:</b> 0 <span id="clearTag">| <a href="">Clear tags</a></span></p>
 
       <!--Start posts-->
 
