@@ -66,7 +66,7 @@ h2 {
 /*link colours*/
 a:hover, a:visited, a:link, a:active{text-decoration: none;}
 a:link, summary {
-  color: #ff5b5b;
+  color: #ffffff;
   -webkit-transition: color 0.08s linear;
   -moz-transition: color 0.08s linear;
   -ms-transition: color 0.08s linear;
@@ -74,10 +74,15 @@ a:link, summary {
   transition: color 0.08s linear;
 }
 a:visited {
-  color: #ff5b5b;
+  color: #ffffff;
 }
 a:hover, summary:hover {
-  color: #ffeeee;
+  color: #13ef90;
+  box-shadow: inset 0 0 0 0 #fcb900;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+
 }
 /*Scroll box*/
 .ScrollBox {
@@ -104,7 +109,7 @@ a:hover, summary:hover {
   color-scheme: light dark;
 }
 ::selection /*mouse highlight colour*/ {
-  background-color: #ff3c3ca1
+  background-color: #ffffffa1
 }
 
 /*images*/
@@ -163,7 +168,7 @@ button {
   padding: 0;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
-  color: #ff6868!important;
+  color: #ffffff!important;
   text-decoration: underline!important;
   cursor: pointer;
   -webkit-transition: color 0.08s linear;
@@ -513,3 +518,4 @@ section {
 .logo:nth-child(3) {
   transition-delay: 400ms;
 }
+
