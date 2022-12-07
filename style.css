@@ -461,11 +461,11 @@ iframe#commentSection {
     border-radius: 15px;
   }
   .blog .post{
-    padding: 12px;
-    margin-block: 8px;
+    padding: 6px;
+    margin-block: 4px;
   }
   .blog .title{
-    font-size: 30px;
+    font-size: 15px;
   }
   .blog img{
     border-radius: 0px;
