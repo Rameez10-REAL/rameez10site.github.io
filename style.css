@@ -456,7 +456,7 @@ iframe#commentSection {
 /*if mobile*/
 @media screen and (max-width: 768px) {
   .post,.postn {
-    padding: 10px;
+    padding: 100px;
     margin-block: 10px;
     border-radius: 15px;
   }
