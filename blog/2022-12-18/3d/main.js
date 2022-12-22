@@ -1,4 +1,3 @@
-
 import './style.css';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
@@ -66,7 +65,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const jeffTexture = new THREE.TextureLoader().load('jeff.png');
+const jeffTexture = new THREE.TextureLoader().load('Jeff.jpg');
 
 const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 
@@ -129,3 +128,9 @@ function animate() {
 }
 
 animate()
+
+// This code logs everything into console
+
+console.log(scene);
+console.log(camera);
+console.log(renderer);
